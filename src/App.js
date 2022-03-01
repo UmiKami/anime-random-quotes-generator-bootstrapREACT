@@ -13,7 +13,7 @@ function App() {
 			if (!hasLoaded) {
 				setHasLoaded(true);
 
-				fetch('http://animechan.vercel.app/api/random', {
+				fetch('https://animechan.vercel.app/api/random', {
 					method: 'GET',
 					headers: {}
 				})
@@ -34,7 +34,7 @@ function App() {
 	);
 
 	const changeQuote = () => {
-		fetch('http://animechan.vercel.app/api/random', {
+		fetch('https://animechan.vercel.app/api/random', {
 			method: 'GET',
 			headers: {}
 		})
