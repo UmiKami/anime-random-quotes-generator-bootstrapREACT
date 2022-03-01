@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    background-color: rgb(53, 17, 35);
 }
 
 #root{
@@ -12,4 +13,33 @@ body{
 
 .btn:hover{
     cursor: pointer;
+    background-color: rgb(163, 26, 101);
+    color: white;
+}
+
+.btn-primary-v2{
+    background-color: rgb(184, 32, 116);
+    color: white;
+}
+
+.btn-primary-v2:focus{
+    box-shadow: 0 0 0 0.2rem rgba(252, 20, 202, 0.692);
+}
+
+.cover-image{
+    height: 40rem;
+}
+
+.card-body{
+    background-color: rgb(122, 42, 80);
+    border: none !important;
+    outline: none !important;
+}
+
+.quote{
+    color: white;
+}
+
+.blockquote-footer{
+    color: rgb(255, 181, 206);
 }
